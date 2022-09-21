@@ -1,0 +1,7 @@
+s1 = input()
+s2 = input()
+split_s1 = s1.split ()
+split_s2 = s2.split ()
+set_s1 = set (split_s1)
+set_s2 = set (split_s2)
+print (len(set_s1 & set_s2))
